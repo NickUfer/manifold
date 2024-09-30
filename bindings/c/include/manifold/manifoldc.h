@@ -200,7 +200,6 @@ ManifoldManifold *manifold_calculate_normals(void *mem, ManifoldManifold *m,
                                              int min_sharp_angle);
 
 // CrossSection Shapes/Constructors
-
 ManifoldCrossSection *manifold_cross_section_empty(void *mem);
 ManifoldCrossSection *manifold_cross_section_copy(void *mem,
                                                   ManifoldCrossSection *cs);
